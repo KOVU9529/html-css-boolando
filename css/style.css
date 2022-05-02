@@ -10,7 +10,7 @@ header{
     position: fixed;
 }
 .container-head{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 .flex{
@@ -43,7 +43,7 @@ header{
 .container-main{
     display: flex;
     padding:100px 200px;
-    width:80%;
+    width:82%;
     margin: auto;
     flex-wrap: wrap;
 }
@@ -93,4 +93,42 @@ img{
 }
 .no-display{
     display: none;
+}
+footer{
+    width: 100%;
+    background-color: black;
+}
+.container-footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.credit{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+
+}
+.info{
+    width: 50%;
+}
+ul{
+    list-style: none;
+}
+.social{
+    text-align: right;
+    width: 50%;
+}
+li{
+    padding-right: 5px;
+    display: inline-block;
+}
+.social li{
+    display: inline-block;
+    padding: 5px 5px;
 }
