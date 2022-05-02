@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(255, 115, 0);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+.container-head{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.genere{
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    widht:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 20%;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.logo-img{
+    width: 100px;
+}
