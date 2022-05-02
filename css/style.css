@@ -46,6 +46,7 @@ header{
     width:82%;
     margin: auto;
     flex-wrap: wrap;
+    position: relative;
 }
 .n{
     width: calc(100%/3);
@@ -91,8 +92,18 @@ img{
     color:grey;
     text-decoration: line-through;
 }
+img{
+    transition: all linear 0.9s;
+}
+.display{
+    position: absolute;
+}
 .no-display{
-    display: none;
+    position: relative;
+    opacity: 1;
+}
+.no-display:hover{
+    opacity:0;
 }
 footer{
     width: 100%;
@@ -112,7 +123,6 @@ footer{
     align-items: center;
     justify-content: space-between;
     font-size: 10px;
-
 }
 .info{
     width: 50%;
