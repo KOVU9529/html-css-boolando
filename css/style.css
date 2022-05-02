@@ -25,7 +25,7 @@ header{
     align-items: center;
 }
 .logo{
-    widht:60%;
+    width:60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,4 +39,58 @@ header{
 }
 .logo-img{
     width: 100px;
+}
+.container-main{
+    display: flex;
+    padding:100px 200px;
+    width:80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.n{
+    width: calc(100%/3);
+    padding: 0px 15px;
+    margin-bottom:  60px;
+}
+img{
+    width: 100%;
+}
+.text{
+    color: black;
+    font-size: 8px;
+}
+.red{
+    background-color: red;
+    padding: 3px;
+}
+.green{
+    background-color:green;
+    padding: 3px;
+}
+.block{
+    position: relative;
+}
+.attribute{
+    position: absolute;
+    left: 0%;
+    bottom: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heart{
+    background-color: white;
+    position:absolute;
+    right: 0%;
+    top: 5%;
+    padding: 5px;
+}
+.red-price{
+    color: red;
+}
+.old-price{
+    color:grey;
+    text-decoration: line-through;
+}
+.no-display{
+    display: none;
 }
